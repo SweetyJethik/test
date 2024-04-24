@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-23T13:57:42 IST" name="Default suite" finished-at="2024-04-23T13:57:52 IST" duration-ms="9821">
+    <groups>
+    </groups>
+    <test started-at="2024-04-23T13:57:42 IST" name="Default test" finished-at="2024-04-23T13:57:52 IST" duration-ms="9821">
+      <class name="sweety.FirstTestngfile">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:sweety.FirstTestngfile@1a451d4d]" started-at="2024-04-23T13:57:42 IST" name="launchBrowser" finished-at="2024-04-23T13:57:52 IST" duration-ms="9380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyHomeTitle()[pri:0, instance:sweety.FirstTestngfile@1a451d4d]" started-at="2024-04-23T13:57:52 IST" name="verifyHomeTitle" finished-at="2024-04-23T13:57:52 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeTitle -->
+        <test-method is-config="true" signature="Terminatebroser()[pri:0, instance:sweety.FirstTestngfile@1a451d4d]" started-at="2024-04-23T13:57:52 IST" name="Terminatebroser" finished-at="2024-04-23T13:57:52 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminatebroser -->
+      </class> <!-- sweety.FirstTestngfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

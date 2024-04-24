@@ -1,0 +1,25 @@
+package sweety;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+
+public class FirstTestngfile {
+	public String BaseUrl="http://demo.guru99.com/test/newtours/"
+  @Test
+  public void f() {
+  }
+  @BeforeTest
+  public void beforeTest() {
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Desktop\\Selenium\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://www.facebook.com/login/");
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}
